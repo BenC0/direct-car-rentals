@@ -1,0 +1,67 @@
+.Reviews {
+    background: transparent;
+}
+
+.ReviewTitle {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ReviewScroller {
+    gap: 1em;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.ReviewScroller::-webkit-scrollbar {
+    height: 5px;
+}
+
+.ReviewScroller::-webkit-scrollbar-track {
+    background-color: var(--white-3);
+}
+
+.ReviewScroller::-webkit-scrollbar-thumb {
+    background-color: var(--red);
+}
+
+.Review {
+    gap: .8em;
+    flex-grow: 0;
+    display: flex;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 8px;
+    width: max(330px, 90%);
+    padding: 33px 16px 17px;
+    background-color: var(--white);
+}
+
+.ReviewRating {
+    gap: .2ch;
+    display: flex;
+}
+
+.ReviewAuthor,
+.ReviewContent {
+    margin: 0;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.ReviewAuthor {
+
+}
+
+.ButtonContainer {
+    width: 100%;
+    display: flex;
+    margin-top: 1em;
+}
+
+.ButtonContainer a {
+    max-width: 100%;
+}

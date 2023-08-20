@@ -1,0 +1,30 @@
+.CallOut {
+    display: flex;
+    text-align: center;
+    padding: 50px 12px 12px;
+    background: var(--black-2);
+}
+
+.CallOutContent {
+    gap: 1em;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.5;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.ButtonContainer {
+    width: 100%;
+    display: flex;
+}
+
+.ButtonContainer a {
+    padding: 10px;
+    max-width: 100%;
+    font-size: 24px;
+}

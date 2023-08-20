@@ -1,0 +1,26 @@
+.WhoWeAre {
+    background: transparent;
+}
+
+.WhoWeAreTitle {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.WhoWeAreContent {
+    font-size: 14px;
+    line-height: 32px;
+    border-radius: 8px;
+    padding: 1.1em 1.2em;
+    background-color: var(--white);
+}
+
+.WhoWeAreContent ul {
+    margin: 0em;
+    padding: 0 0 0 3ch;
+}
+
+.WhoWeAreContent li {
+    margin-bottom: 0em;
+}

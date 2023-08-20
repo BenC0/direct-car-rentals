@@ -1,0 +1,26 @@
+.AboutUs {
+    background: transparent;
+}
+
+.AboutUsTitle {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.AboutUsContent {
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+    padding: 1.1em 1.2em;
+    background-color: var(--white);
+}
+
+.AboutUsTable {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.AboutUsTableLabel {
+    color: var(--red);
+}

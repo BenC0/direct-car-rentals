@@ -1,0 +1,13 @@
+import styles from './index.module.css'
+import { oswald } from "../../styles/fonts"
+
+export function CallToAction(props) {
+	return  (
+        <a className={styles.CallToAction} href={props.href}>
+            <span className={`${oswald.className}`}>{props.text}</span>    
+        </a>
+    )
+}
+
+
+export default CallToAction

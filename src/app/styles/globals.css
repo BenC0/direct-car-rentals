@@ -1,0 +1,42 @@
+:root {
+    --red: #E22106;
+    
+    --black: #000000;
+    --black-2: #1A1A1A;
+    --black-3: #222222;
+
+    --white: #FEFEFE;
+    --white-2: #EFEFEF;
+    --white-3: #D9D9D9;
+
+    --font-family-1: "Oswald", sans-serif;
+    --font-family-2: "PT Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: var(--black);
+}
+
+body, h4, h5, h6 {
+    font-weight: normal;
+    color: var(--black);
+}
+
+html, body {
+    background-color: var(--white-2);
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    aspect-ratio: 210 / 127;
+}

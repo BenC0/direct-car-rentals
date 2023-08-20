@@ -1,0 +1,15 @@
+.Navigation {
+    gap: 1em;
+    display: flex;
+    padding: 12px 8px;
+    align-items: center;
+    background: var(--black-2);
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+    color: var(--red);
+    text-transform: uppercase;
+}

@@ -1,0 +1,170 @@
+/*  Layout Scaffolding
+    Example Structure:
+        section.content_wrapper
+        |-> div.content
+            |-> div.example_item
+            |-> img.example_item
+            |-> etc...
+*/
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    place-content: center;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    max-width: calc(1320px + 2rem);
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+
+.column.flex-reverse {
+    flex-direction: column-reverse;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-flex-start {
+    align-items: flex-start;
+}
+
+.as-center {
+    align-self: center;
+}
+
+.as-flex-start {
+    align-self: flex-start;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .m-flex {
+        display: flex;
+    }
+    .m-row {
+        flex-direction: row;
+    }
+    .m-wrap {
+        flex-wrap: wrap;
+    }
+    .m-column {
+        flex-direction: column;
+    }
+    .m-flex-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .m-column.flex-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .m-a-center {
+        align-items: center;
+    }
+
+    .m-a-flex-start {
+        align-items: flex-start;
+    }
+
+    .m-as-center {
+        align-self: center;
+    }
+
+    .m-as-flex-start {
+        align-self: flex-start;
+    }
+
+    .m-j-center {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .t-flex {
+        display: flex;
+    }
+    .t-row {
+        flex-direction: row;
+    }
+    .t-wrap {
+        flex-wrap: wrap;
+    }
+    .t-column {
+        flex-direction: column;
+    }
+    .t-flex-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .t-column.flex-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .t-a-center {
+        align-items: center;
+    }
+
+    .t-a-flex-start {
+        align-items: flex-start;
+    }
+
+    .t-as-center {
+        align-self: center;
+    }
+
+    .t-as-flex-start {
+        align-self: flex-start;
+    }
+
+    .t-j-center {
+        justify-content: center;
+    }
+}
+
+.inner-flex {
+    display: flex;
+}
+
+.flex-spacer {
+    flex-grow: 1;
+}
+
+.grid {
+    gap: 1.22rem;
+    display: grid;
+}
+
+.col-2 { grid-template-columns: repeat(2, 1fr); }
+.col-3 { grid-template-columns: repeat(3, 1fr); }
+.col-4 { grid-template-columns: repeat(4, 1fr); }
+.col-5 { grid-template-columns: repeat(5, 1fr); }
+.col-6 { grid-template-columns: repeat(6, 1fr); }
+.col-7 { grid-template-columns: repeat(7, 1fr); }
+.col-8 { grid-template-columns: repeat(8, 1fr); }
+.col-9 { grid-template-columns: repeat(9, 1fr); }
+.col-10 { grid-template-columns: repeat(10, 1fr); }
+.col-11 { grid-template-columns: repeat(11, 1fr); }
+.col-12 { grid-template-columns: repeat(12, 1fr); }

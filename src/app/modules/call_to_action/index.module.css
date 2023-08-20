@@ -1,0 +1,14 @@
+.CallToAction {
+    flex-grow: 1;
+    display: flex;
+    font-size: 18px;
+    max-width: 310px;
+    font-weight: 700;
+    padding: 8px 1px;
+    border-radius: 8px;
+    color: var(--white);
+    place-content: center;
+    text-decoration: none;
+    background: var(--red);
+    text-transform: capitalize;
+}

@@ -1,0 +1,20 @@
+.Footer {
+    padding: 43px 8px;
+    background: var(--black);
+}
+
+.Footer p {
+    text-align: center;
+    margin: 0;
+}
+
+.authorship,
+.copyright {
+    margin: 0;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.authorship {
+    color: var(--red);
+}
