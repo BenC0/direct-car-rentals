@@ -1,6 +1,9 @@
 .Navigation {
+    top: 0;
     gap: 1em;
+    z-index: 10;
     display: flex;
+    position: sticky;
     padding: 12px 8px;
     align-items: center;
     background: var(--black-2);
