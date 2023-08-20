@@ -1,10 +1,10 @@
 .Hero {
-    gap: 1em;
-    display: flex;
-    padding: 2em 8px;
-    align-items: center;
-    flex-direction: column;
     background: var(--black-2);
+}
+
+.HeroContent {
+    gap: 1em;
+    padding: 2em 8px;
 }
 
 .HeroText {
@@ -13,8 +13,19 @@
     font-weight: bold;
     color: var(--white);
     text-decoration: none;
+    
 }
 
+@media screen and (min-width: 600px) {
+    .HeroText {
+        font-size: 36px;
+    }
+
+    .HeroContent {
+        gap: 2em;
+        padding: 71px 8px;
+    }
+}
 
 .HeroTextLink span,
 .HeroTextLink {
