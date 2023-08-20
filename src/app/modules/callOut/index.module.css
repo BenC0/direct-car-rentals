@@ -19,12 +19,18 @@
 }
 
 .ButtonContainer {
-    width: 100%;
     display: flex;
+    width: min(100%, 310px);
 }
 
 .ButtonContainer a {
     padding: 10px;
     max-width: 100%;
     font-size: 24px;
+}
+
+@media screen and (min-width: 600px) {
+    .title {
+        font-size: 54px;
+    }
 }
