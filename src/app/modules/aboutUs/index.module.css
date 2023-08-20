@@ -9,10 +9,14 @@
 }
 
 .AboutUsContent {
+    display: flex;
+    width: 100%;
     font-size: 16px;
     line-height: 24px;
+    max-width: 1077px;
     border-radius: 8px;
     padding: 1.1em 1.2em;
+    justify-content: space-between;
     background-color: var(--white);
 }
 
@@ -23,4 +27,23 @@
 
 .AboutUsTableLabel {
     color: var(--red);
+}
+
+.AboutUsTableFooter {
+    grid-column: 1 / span 2;
+}
+
+@media screen and (min-width: 600px) {
+    .AboutUs {
+        padding: 33px 1em;
+    }
+
+    .AboutUsContainer {
+        border-radius: 8px;
+        background-color: var(--white);
+    }
+
+    .AboutUsContent {
+        padding: 0;
+    }
 }
