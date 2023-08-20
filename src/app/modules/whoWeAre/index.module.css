@@ -11,9 +11,30 @@
 .WhoWeAreContent {
     font-size: 14px;
     line-height: 32px;
+}
+
+.WhoWeAreCopy {
     border-radius: 8px;
     padding: 1.1em 1.2em;
     background-color: var(--white);
+}
+
+@media screen and (min-width: 600px) {
+    .WhoWeAre {
+        padding: 33px 1em;
+    }
+    
+    .WhoWeAreContent {
+        font-size: 18px;
+        border-radius: 8px;
+        padding: 70px 1em;
+        background-color: var(--white);
+    }
+
+    .WhoWeAreCopy {
+        padding: 0;
+        max-width: 1077px;
+    }
 }
 
 .WhoWeAreContent ul {
