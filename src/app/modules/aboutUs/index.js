@@ -18,7 +18,7 @@ export function AboutUs(props) {
                         <p className={styles.AboutUsTableFooter}>*  All price matches are like for like within the local area.</p>
                     </div>
                     <a href="">
-                        <Image src="/map.png" width="420" height="254" />
+                        <Image src="/map.png" width="420" height="254" alt="map" />
                     </a>
                 </div>
             </div>
