@@ -1,12 +1,14 @@
 .Navigation {
     top: 0;
-    gap: 1em;
     z-index: 10;
-    display: flex;
     position: sticky;
+    background: var(--black-2);
+}
+
+.NavigationContent {
+    gap: 1em;
     padding: 12px 8px;
     align-items: center;
-    background: var(--black-2);
     justify-content: space-between;
 }
 
