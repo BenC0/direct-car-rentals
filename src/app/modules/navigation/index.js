@@ -9,7 +9,7 @@ export function Navigation() {
                 <h1 className={`${oswald.className} ${styles.logo}`}>Direct Car Rentals</h1>    
                 <CallToAction
                     text="Get in Touch"
-                    href="tel:01617980000"
+                    href="tel:01617617773"
                 ></CallToAction>
             </div>
         </div>
