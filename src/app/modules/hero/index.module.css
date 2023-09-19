@@ -38,8 +38,13 @@
     left: -1ch;
     right: -1ch;
     bottom: 1px;
-    height: 8px;
+    top: calc(100% - 9px);
     content: "";
     position: absolute;
     background: var(--red);
+    transition: all .1s ease-out;
+}
+
+.HeroTextLink:hover::after {
+    top: 2px;
 }

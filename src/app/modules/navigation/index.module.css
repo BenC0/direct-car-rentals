@@ -14,6 +14,7 @@
 
 .logo {
     margin: 0;
+    flex-grow: 2;
     font-size: 24px;
     color: var(--red);
     text-transform: uppercase;
@@ -21,10 +22,68 @@
 
 .NavigationButtonContainer {
     gap: .25em;
-    flex-grow: 0;
+    flex-grow: 1;
     display: flex;
     text-align: center;
     align-items: stretch;
-    width: min(310px, 100%);
+    max-width: 310px;
     flex-direction: column;
+}
+
+.ContactOverlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: -1;
+    display: block;
+    position: fixed;
+    padding: 70px 1em 1em;
+    background: var(--black);
+    transition: all .3s ease-out;
+}
+
+.ContactOverlayContent {
+    gap: 1em;
+    display: flex;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-items: stretch;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 3em 1em 1em;
+    max-width: calc(1320px + 2rem);
+}
+
+.ContactOverlay a {
+    width: 100%;
+}
+
+.ContactOverlay:not(.ContactOverlayActive) {
+    pointer-events: none;
+} 
+
+.ContactOverlay.ContactOverlayActive {
+    opacity: 1;
+}
+
+.ContactOverlayClose {
+    top: 0;
+    right: 0;
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    color: var(--white);
+}
+
+.ContactOverlayClose svg {
+    --size: 24px;
+    height: var(--size);
+    width: var(--size);
 }

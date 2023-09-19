@@ -12,3 +12,4 @@
 6. ~~Update map image~~
 7. ~~Make map a link~~
    - ~~https://g.co/kgs/MLPjdW~~
+8. Improved Nav UI/UX
