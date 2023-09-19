@@ -22,6 +22,10 @@ h1, h2, h3 {
     color: var(--black);
 }
 
+a {
+    color: var(--red);
+}
+
 body, h4, h5, h6 {
     font-weight: normal;
     color: var(--black);
@@ -38,5 +42,4 @@ li {
 img {
     height: auto;
     max-width: 100%;
-    aspect-ratio: 210 / 127;
 }

@@ -33,6 +33,12 @@
     grid-column: 1 / span 2;
 }
 
+.AboutUsMap {
+    margin: 1em 0;
+    max-width: 400px;
+    aspect-ratio: 3/2;
+}
+
 @media screen and (min-width: 600px) {
     .AboutUs {
         padding: 33px 1em;

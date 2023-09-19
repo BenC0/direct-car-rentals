@@ -10,7 +10,7 @@ export function CallOut() {
                 <div className={styles.ButtonContainer}>
                     <CallToAction
                         text="Get in Touch"
-                        href="tel:01617980000"
+                        href="tel:01617617773"
                     ></CallToAction>
                 </div>
             </div>

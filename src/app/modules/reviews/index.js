@@ -19,8 +19,8 @@ const ReviewsContent = [
     {
         key: 2,
         rating: 5,
-        content: "I've hired vans on an ongoing basis now for approximately 6 months from Totty Van Hire. I've found them to be reasonably priced vans, ran by nice people who go out of their way to help...",
-        author: "Sean Swimby"
+        content: "Brilliant car and van hire company, can't do enough for you, good selection of cars and vans at very competitive prices, also do repairs.",
+        author: "David Taylor"
     },
     {
         key: 3,

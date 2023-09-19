@@ -12,13 +12,13 @@ export function AboutUs(props) {
                         <p className={styles.AboutUsTableLabel}>Location</p>
                         <p className={styles.AboutUsTableValue}>Woolfold Industrial Estate<br />ALSTON HOUSE<br />Alston St<br/>Bury<br/>BL8 1SF</p>
                         <p className={styles.AboutUsTableLabel}>Contact</p>
-                        <p className={styles.AboutUsTableValue}>0161 761 7773<br />DirectCarHire@gmail.com</p>
+                        <p className={styles.AboutUsTableValue}>0161 761 7773<br /><a href="mailto:Directvehiclerentals@gmail.com">DirectVehicleRentals@gmail.com</a></p>
                         <p className={styles.AboutUsTableLabel}>Business Hire</p>
                         <p className={styles.AboutUsTableValue}>Sam Pull</p>
                         <p className={styles.AboutUsTableFooter}>*  All price matches are like for like within the local area.</p>
                     </div>
-                    <a href="">
-                        <Image src="/map.png" width="420" height="254" alt="map" />
+                    <a href="https://g.co/kgs/MLPjdW" target="_blank">
+                        <Image src="/map.png" width="600" height="400" alt="map" className={styles.AboutUsMap} />
                     </a>
                 </div>
             </div>
