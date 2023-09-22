@@ -4,8 +4,8 @@ import "normalize.css"
 import { ptsans } from "./styles/fonts"
 
 export const metadata = {
-	title: 'Direct Car Rentals',
-	description: 'Direct Car Rentals',
+	title: 'Direct Vehicle Rentals',
+	description: 'Direct Vehicle Rentals',
 }
 
 export default function RootLayout({ children }) {

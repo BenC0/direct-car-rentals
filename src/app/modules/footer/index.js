@@ -6,7 +6,7 @@ export function Footer() {
 	return  (
         <div className={styles.Footer}>
             <p className={`${ptsans.className}`}>
-                <span className={`${styles.copyright}`}>&copy; Direct Car Rentals | </span>
+                <span className={`${styles.copyright}`}>&copy; Direct Vehicle Rentals | </span>
                 <a href="https://benco.dev/" target="_blank" className={`${styles.authorship}`}>Built by BenCo</a>
             </p>
         </div>

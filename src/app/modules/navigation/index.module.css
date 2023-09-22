@@ -20,6 +20,18 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 522px) {
+    .logo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .logo {
+        font-size: 18px;
+    }
+}
+
 .NavigationButtonContainer {
     gap: .25em;
     flex-grow: 1;
